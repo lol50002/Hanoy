@@ -1,0 +1,7 @@
+C:\Users\1\documents\visual studio 2010\Projects\Hanoy\Hanoy\bin\Debug\Hanoy.exe
+C:\Users\1\documents\visual studio 2010\Projects\Hanoy\Hanoy\bin\Debug\Hanoy.pdb
+C:\Users\1\documents\visual studio 2010\Projects\Hanoy\Hanoy\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\1\documents\visual studio 2010\Projects\Hanoy\Hanoy\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\1\documents\visual studio 2010\Projects\Hanoy\Hanoy\obj\x86\Debug\Hanoy.csproj.GenerateResource.Cache
+C:\Users\1\documents\visual studio 2010\Projects\Hanoy\Hanoy\obj\x86\Debug\Hanoy.exe
+C:\Users\1\documents\visual studio 2010\Projects\Hanoy\Hanoy\obj\x86\Debug\Hanoy.pdb

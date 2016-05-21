@@ -11,6 +11,7 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
+        List<PictureBox> listpic = new List<PictureBox>();
 
         bool stats = false;
         bool pop = false;
@@ -19,10 +20,7 @@ namespace WindowsFormsApplication1
         {
             if (stats == true)
                 disk1.Location = new Point(Cursor.Position.X- this.Location.X, Cursor.Position.Y- this.Location.Y);  
-            if ((peresechenierectangle(disk1,pictureBox5)&&!(peresechenierectangle(disk2,pictureBox5)&&peresechenierectangle(disk3,pictureBox5)&&peresechenierectangle(disk4,pictureBox5))))
-            {
-                disk1.Location = new Point(450, 450);
-            }
+
 
         }
 
@@ -35,7 +33,7 @@ namespace WindowsFormsApplication1
         {
             stats = false;
         }
-
+        
 
         private bool peresechenierectangle(PictureBox a, PictureBox b)
         {
@@ -54,15 +52,12 @@ namespace WindowsFormsApplication1
 
 
         private void Form1_Load(object sender, EventArgs e)
-        {     
+        {
 
-
-
-
-
-
-
-
+            listpic.Add(disk1);
+            listpic.Add(disk2);
+            listpic.Add(disk3);
+            listpic.Add(disk4);
 
         }
 

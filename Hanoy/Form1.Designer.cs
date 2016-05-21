@@ -137,6 +137,9 @@
             this.disk3.Size = new System.Drawing.Size(95, 29);
             this.disk3.TabIndex = 10;
             this.disk3.TabStop = false;
+            this.disk3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.disk1_MouseDown);
+            this.disk3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.disk1_MouseMove);
+            this.disk3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.disk1_MouseUp);
             // 
             // disk4
             // 
